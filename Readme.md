@@ -12,9 +12,13 @@ minimal sample implementation
 
 `npm install`
 
-## build
+## build for dev(fast)
 
 `npm run build`
+
+## build for prod(with AoT)
+
+`npm run build:prod`
 
 ## run
 
