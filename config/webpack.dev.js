@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path");
 
 module.exports = {
@@ -39,10 +38,6 @@ module.exports = {
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'polyfills']
-    }),
-
-    new HtmlWebpackPlugin({
-      template: 'src/index.html'
     }),
 
     new webpack.ContextReplacementPlugin(

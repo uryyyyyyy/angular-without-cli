@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path");
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const {AngularCompilerPlugin} = require('@ngtools/webpack')
@@ -36,11 +35,6 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'polyfills']
     }),
-
-    new HtmlWebpackPlugin({
-      template: 'src/index.html'
-    }),
-
     new webpack.ContextReplacementPlugin(
       /\@angular(\\|\/)core(\\|\/)esm5/,
       path.resolve('src'),
