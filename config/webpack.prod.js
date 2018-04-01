@@ -7,7 +7,6 @@ const {AngularCompilerPlugin} = require('@ngtools/webpack')
 module.exports = {
   entry: {
     'polyfills': './src/polyfills.ts',
-    'vendor': './src/vendor.ts',
     'app': './src/main.ts'
   },
   output: {
@@ -43,7 +42,7 @@ module.exports = {
 
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['app', 'vendor', 'polyfills']
+      name: ['app', 'polyfills']
     }),
 
     new HtmlWebpackPlugin({
