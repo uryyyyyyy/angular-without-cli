@@ -28,10 +28,6 @@ module.exports = {
         use: {
           loader: '@ngtools/webpack'
         }
-      },
-      {
-        test: /\.html$/,
-        use: 'html-loader'
       }
     ]
   },

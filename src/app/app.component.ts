@@ -2,7 +2,10 @@ import { Component, OnInit } from "@angular/core";
 
 @Component({
     selector: "main-app",
-    templateUrl: './app.component.html',
+    template: `
+      <h1>Angular App</h1>
+      <p>Hello World!</p>
+    `,
     styles: [`
         h1 {
             color: blue;
