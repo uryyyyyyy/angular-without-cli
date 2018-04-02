@@ -25,7 +25,7 @@ minimal sample implementation
 
 ## run
 
-`python -m http.server`
+`npm run server`
 
 ## License
 

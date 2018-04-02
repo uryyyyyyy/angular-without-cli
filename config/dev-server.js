@@ -2,10 +2,17 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-app.use('/', express.static('dist'));
+app.use('/dist', express.static('dist'));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
+app.get('/api/count', (req, res) => {
+  res.contentType('application/json');
+  const obj = {"count": 100};
+  setTimeout(() => res.json(obj), 1000);
+  //res.status(400).json(obj); //for error testing
+});
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 app.listen(3000, (err) => {
