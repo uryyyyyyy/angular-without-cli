@@ -2,19 +2,16 @@ import {Component, OnInit} from "@angular/core";
 
 @Component({
   selector: "main-app",
-  template: `
-    <h1>Angular App</h1>
-    <p>Hello World!</p>
-  `,
-  styles: [`
-      h1 {
-          color: blue;
-      }
-  `]
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
 
-  public constructor() {}
+  name: string
+
+  public constructor() {
+    this.name = 'Angular'
+  }
 
   public ngOnInit(): void {}
 

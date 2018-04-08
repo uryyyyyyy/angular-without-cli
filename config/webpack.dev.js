@@ -28,6 +28,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/,
+        use: 'html-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: ['to-string-loader', 'css-loader', 'sass-loader']
+      },
+      {
         test: /\.ts$/,
         loader: ['ts-loader', 'angular2-template-loader']
       }
