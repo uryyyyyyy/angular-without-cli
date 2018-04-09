@@ -1,7 +1,7 @@
 
 ## Angular without Angular-cli
 
-[![CircleCI](https://circleci.com/gh/uryyyyyyy/angular-without-cli//tree/helloWorld.svg?style=svg)](https://circleci.com/gh/uryyyyyyy/angular-without-cli//tree/helloWorld)
+[![CircleCI](https://circleci.com/gh/uryyyyyyy/angular-without-cli/tree/helloWorld.svg?style=svg)](https://circleci.com/gh/uryyyyyyy/angular-without-cli/tree/helloWorld)
 
 minimal sample implementation
 
