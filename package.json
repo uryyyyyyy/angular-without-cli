@@ -14,18 +14,19 @@
     "format:unit": "prettier --config ./prettier.config.js --write ./prettier.config.js"
   },
   "dependencies": {
-    "@angular/common": "6.0.0-rc.3",
-    "@angular/compiler": "6.0.0-rc.3",
-    "@angular/compiler-cli": "6.0.0-rc.3",
-    "@angular/core": "6.0.0-rc.3",
-    "@angular/platform-browser": "6.0.0-rc.3",
-    "@angular/platform-browser-dynamic": "6.0.0-rc.3",
+    "@angular/common": "6.0.0-rc.6",
+    "@angular/compiler": "6.0.0-rc.6",
+    "@angular/compiler-cli": "6.0.0-rc.6",
+    "@angular/core": "6.0.0-rc.6",
+    "@angular/platform-browser": "6.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "6.0.0-rc.6",
     "core-js": "2.5.5",
-    "rxjs": "6.0.0-rc.0",
+    "rxjs": "6.0.0",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
-    "@ngtools/webpack": "6.0.0-rc.2.4",
+    "@angular-devkit/build-optimizer": "0.5.10",
+    "@ngtools/webpack": "6.0.0-rc.8",
     "@types/jasmine": "2.8.6",
     "@types/node": "9.6.2",
     "angular2-template-loader": "0.6.2",
@@ -38,15 +39,15 @@
     "karma-jasmine": "1.1.1",
     "karma-mocha-reporter": "2.2.5",
     "karma-webpack": "3.0.0",
-    "node-sass": "4.8.3",
+    "node-sass": "4.9.0",
     "prettier": "1.11.1",
-    "sass-loader": "6.0.7",
+    "sass-loader": "7.0.1",
     "to-string-loader": "1.1.5",
+    "ts-loader": "4.2.0",
     "tslint": "5.9.1",
     "tslint-config-standard": "7.0.0",
-    "ts-loader": "4.2.0",
     "typescript": "2.7.2",
-    "webpack": "4.5.0",
-    "webpack-cli": "2.0.14"
+    "webpack": "4.6.0",
+    "webpack-cli": "2.0.15"
   }
 }
