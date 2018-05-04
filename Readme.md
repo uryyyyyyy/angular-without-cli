@@ -7,9 +7,9 @@ minimal sample implementation
 
 ## requirement
 
-- NodeJS 8.9~
-- NPM 5.3~
-- Angular 6.0-RC
+- NodeJS 10.0~
+- NPM 6.0~
+- Angular 6.0
 
 ## setup
 
