@@ -7,8 +7,8 @@ minimal sample implementation
 
 ## requirement
 
-- NodeJS 10.0~
-- NPM 6.0~
+- NodeJS 8.11~
+- NPM 5.6~
 - Angular 6.0
 
 ## setup
